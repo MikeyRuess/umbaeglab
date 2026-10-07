@@ -9,7 +9,7 @@ The public URL is https://mikeyruess.github.io/umbaeglab/.
 ## Files
 - `index.html`, `assets/site.css`, `assets/site.js`: editable lab website.
 - `aging-muscle-atlas/`: complete prebuilt atlas with its derived datasets.
-- `atlas-source/`: editable upstream atlas source, tests and documentation.
+- `atlas-source.zip`: editable upstream atlas source, data, tests and documentation. Extract locally to rebuild; redundant prebuilt `docs/` files are omitted from the archive.
 
 Run `python3 -m http.server 8080` here to preview, then visit http://localhost:8080.
 No build step is needed to serve the prebuilt site. All paths are relative for GitHub project Pages.
