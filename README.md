@@ -2,6 +2,18 @@
 
 Static academic website with the integrated **Aging Flight Muscle Atlas**.
 
+## Atlas source & credits
+
+The lab's customized atlas is hosted and stored under **MikeyRuess/umbaeglab**. These links use this account's own copy:
+
+- [Open Aging Flight Muscle Atlas](https://mikeyruess.github.io/umbaeglab/aging-flight-muscle-atlas/).
+- [Download the full editable source and bundled data](https://github.com/MikeyRuess/umbaeglab/raw/refs/heads/main/atlas-source.zip).
+- [Browse the published app and data](aging-flight-muscle-atlas/).
+
+The source archive includes the React/TypeScript app, styles, build configuration, tests, documentation and derived datasets. It contains the lab's **D1 / D25 / D50** labels. This is a maintained copy, not an automatically synchronized mirror.
+
+Original atlas application and data: [yuxux23/Flight_Muscle_Atlas](https://github.com/yuxux23/Flight_Muscle_Atlas), version 1.0.1. Original methodology, scientific provenance and third-party rights are retained. The lab's display-name, cohort-label and URL changes do not recalculate the numerical results.
+
 ## Publish
 Use GitHub Pages, Deploy from a branch, `main`, `/ (root)`.
 The public URL is https://mikeyruess.github.io/umbaeglab/.
@@ -22,6 +34,8 @@ Atlas application and data: https://github.com/yuxux23/Flight_Muscle_Atlas, vers
 Campus photograph retained from the owner's existing website. Existing third-party rights remain with their owners. No new blanket license is asserted over the atlas data or institutional assets.
 
 The team roster, order, nicknames and office E12-2010 were updated from the lab owner's instructions on 9 October 2026. Prof. Baeg's portrait was supplied by the owner. Student portraits are not included in the original repository despite filenames in its roster, so the site uses initials rather than unrelated or generated portraits. Sofia is listed as a BSc student without a year. Other years indicate the start of PhD study.
+
+Office, lab and team-office room numbers and telephone numbers, plus Tuesday/Thursday 09:00–11:00 consultation hours, follow the institutional contact screenshot supplied by the owner on 9 October 2026. The website omits the Portuguese street-address line at the owner's request.
 
 ## Editing and checks
 
