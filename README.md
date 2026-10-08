@@ -12,7 +12,7 @@ The lab's customized atlas is hosted and stored under **MikeyRuess/umbaeglab**. 
 
 The source archive includes the React/TypeScript app, styles, build configuration, tests, documentation and derived datasets. It contains the lab's **D1 / D25 / D50** labels. This is a maintained copy, not an automatically synchronized mirror.
 
-Original atlas application and data: [yuxux23/Flight_Muscle_Atlas](https://github.com/yuxux23/Flight_Muscle_Atlas), version 1.0.1. Original methodology, scientific provenance and third-party rights are retained. The lab's display-name, cohort-label and URL changes do not recalculate the numerical results.
+The atlas is distributed here from the lab's locally held **IFM-Gene-Network-Atlas-Final-v1.0.1** package and editable application source. The published dataset was checked against that local package: only the youngest-cohort label and public-hosting flag differ, and the binary correlation data is byte-identical. The lab's display-name and URL changes do not recalculate the numerical results. Scientific methods remain documented inside the app. [Third-party software notices](THIRD-PARTY-NOTICES.txt) are retained.
 
 ## Publish
 Use GitHub Pages, Deploy from a branch, `main`, `/ (root)`.
@@ -30,7 +30,7 @@ No build step is needed to serve the prebuilt site. All paths are relative for G
 Research, team details and campus photograph: https://github.com/MikeyRuess/baeglab (gh-pages).
 PI information and publication list: https://fhs.um.edu.mo/en/our-staff/academic-staff/academic-home/associate-professors/ and https://fhs.um.edu.mo/en/prof-gyeong-hun-baegs-full-publication-list/.
 Academic website reference: https://www.henrykwoklab.com/ (layout inspiration; no copied text or assets).
-Atlas application and data: https://github.com/yuxux23/Flight_Muscle_Atlas, version 1.0.1. Original methodology and provenance remain within the atlas; the display name is updated to Aging Flight Muscle Atlas. No analytical results have been changed.
+Atlas application and data: the lab's local version 1.0.1 package, maintained in this repository with its editable source archive. Original methodology and scientific provenance remain within the atlas; the display name is Aging Flight Muscle Atlas. No analytical results have been changed.
 Campus photograph retained from the owner's existing website. Existing third-party rights remain with their owners. No new blanket license is asserted over the atlas data or institutional assets.
 
 The team roster, order, nicknames and office E12-2010 were updated from the lab owner's instructions on 9 October 2026. Prof. Baeg's portrait was supplied by the owner. Student portraits are not included in the original repository despite filenames in its roster, so the site uses initials rather than unrelated or generated portraits. Sofia is listed as a BSc student without a year. Other years indicate the start of PhD study.
