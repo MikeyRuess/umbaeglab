@@ -8,7 +8,7 @@ The public URL is https://mikeyruess.github.io/umbaeglab/.
 
 ## Files
 - `index.html`, `assets/site.css`, `assets/site.js`: editable lab website.
-- `aging-muscle-atlas/`: complete prebuilt atlas with its derived datasets.
+- `aging-flight-muscle-atlas/`: complete prebuilt atlas with its derived datasets.
 - `atlas-source.zip`: editable upstream atlas source, data, tests and documentation. Extract locally to rebuild; redundant prebuilt `docs/` files are omitted from the archive.
 
 Run `python3 -m http.server 8080` here to preview, then visit http://localhost:8080.
@@ -28,5 +28,8 @@ The team roster, order, nicknames and office E12-2010 were updated from the lab 
 - The ordered student list and contact details are in `index.html`; keep the roster readable without JavaScript.
 - Prof. Baeg's portrait is `assets/gyeong-hun-baeg.png`, with an explicit accessible description. Replace student initials only with identified, approved portraits.
 - The mobile menu supports Escape and closes after navigation; navigation remains visible if JavaScript is unavailable. Motion respects the visitor's reduced-motion preference.
-- The resource's display name is **Aging Flight Muscle Atlas**. Its existing `aging-muscle-atlas/` URL is intentionally retained for link compatibility. The app title, prebuilt interface and editable source archive use the same name; analytical data are unchanged.
+- The resource's display name is **Aging Flight Muscle Atlas**, published at `aging-flight-muscle-atlas/`. The former atlas URL redirects here for link compatibility.
+- The youngest cohort is labeled **D1** throughout the interface, data keys and editable source, as requested by the lab owner on 9 October 2026. This is a cohort-label correction, not a recalculation: all numerical measurements, correlations and age-array ordering are unchanged.
 - Preview locally at desktop and mobile widths. Check the ten students in their specified order, the portrait, office/email links, and atlas loading before publishing.
+
+The decorative preview image at `aging-flight-muscle-atlas/og.png` was updated with the built-in image editor. Prompt: change only the youngest age label to D1; preserve the remaining text, layout, colors and illustrative networks. This graphic is not experimental evidence.
