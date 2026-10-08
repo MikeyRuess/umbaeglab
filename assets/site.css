@@ -103,12 +103,17 @@ figcaption { position:absolute; bottom:25px; left:28px; color:white; z-index:1; 
 .paper h3 { font-size:20px; font-weight:500; margin:0 0 10px; max-width:900px; }
 .paper p { font-size:14px; color:var(--muted); margin:0; max-width:900px; }
 .paper:hover h3 { text-decoration:underline; text-underline-offset:4px; }
-.contact { display:grid; grid-template-columns:1.4fr 1fr; gap:80px; }
+.contact { display:grid; grid-template-columns:1fr 1.2fr; gap:64px; }
 .contact p { color:var(--muted); max-width:470px; font-size:16px; }
 .contact .button { margin-top:16px; }
 address { font-style:normal; border-left:1px solid var(--line); padding:5px 0 5px 45px; font-size:15px; color:var(--muted); }
 address strong { color:var(--ink); font-size:19px; }
-.office-label { display:inline-block; margin:13px 0; color:var(--ink); font-weight:600; }
+.contact-details { margin:24px 0 0; }
+.contact-details>div { display:grid; grid-template-columns:145px 1fr; gap:16px; padding:14px 0; border-top:1px solid var(--line); }
+.contact-details dt { color:var(--ink); font-weight:600; }
+.contact-details dd { margin:0; }
+.contact-details a { text-decoration:underline; text-underline-offset:3px; }
+.contact-timezone { white-space:nowrap; font-size:13px; }
 .contact-links { display:grid; justify-items:start; gap:12px; margin-top:18px; }
 .contact-links a { border-bottom:1px solid #afbab0; }
 footer { padding:35px 7%; border-top:1px solid var(--line); display:flex; flex-wrap:wrap; gap:25px; align-items:center; justify-content:space-between; }
@@ -170,6 +175,7 @@ footer small { width:100%; font-size:12px; color:var(--muted); }
   .paper p { font-size:13px; }
   .contact { grid-template-columns:1fr; gap:32px; }
   address { padding:23px 0 0; border:0; border-top:1px solid var(--line); }
+  .contact-details>div { grid-template-columns:115px 1fr; gap:12px; }
   footer nav { width:100%; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
